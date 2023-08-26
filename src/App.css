@@ -1,3 +1,7 @@
+*{
+  color: white;
+  background-color:#1b1a1a;
+}
 
 .App{
   margin: 30px;
@@ -12,7 +16,7 @@
 }
 
 label{
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
   margin-right: 10px;
 }
@@ -24,39 +28,71 @@ select, .btnSearch{
   background-color: #ffc107;
   padding: 5px 20px;
   border: 2px solid black;
+  border-radius: 5px;
   margin-left: 10px;
   cursor: pointer;
 }
 
 .ID{
+  width: 100px;
+  color: black;
   text-align: center;
+  background-color: white;
   font-size: 20px;
   padding: 5px 20px;
+  border-radius: 10px;
 }
 
 .name{
-  font-size: 30px;
-  font-weight: bold;
-}
-
-.container{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin-bottom: 15px;
+  font-size: 40px;
+  font-family: fantasy;
+  text-decoration-line: underline;
 }
 
 .starship, .film, .people, .vehicles, .species, .planets{
-  margin: 20px;
-  padding: 10px 20px;
+  margin: 50px auto;
+  padding: 15px 30px;
   width: 500px;
-  border: 2px solid black;
+  border: 2px solid #ffc107;
   border-radius: 25px;
+  background-color: #2a2a2a;
 }
 
 li{
+  font-size: 20px;
   list-style: none;
+  background-color: #2a2a2a;
 }
 
 span{
+  font-size: 20px;
   font-weight: bold;
+  background-color: #2a2a2a;
+}
+
+.logo{ 
+  width: 150px;
+}
+
+.error{
+  margin: 60px auto;
+  width: 700px;
+  padding: 0 30px;
+  border: 3px solid #ffc107;
+  filter: drop-shadow(0 0 7px #ffc107);
+  border-radius: 50px;
+  background-color: rgb(11, 11, 11);
+}
+
+h2{
+  text-align: center;
+  background-color: rgb(11, 11, 11);
+}
+
+.error img{
+  position: relative;
+  top: 4px;
+  left: 100px;
+  background-color: rgb(11, 11, 11);
 }
